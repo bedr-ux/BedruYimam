@@ -277,15 +277,15 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 #  - 'jekyll/scholar'
 
 scholar:
-  last_name: Abdullah
-  first_name: [Badr M.]
+  last_name: Ahmed
+  first_name: [Bedru Y.]
 
   style: apa
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template:  bib #"{{ reference | replace_first: 'Badr M. Abdullah', '<u>Badr M. Abdullah</u>' }}"
+  bibliography_template:  bib #"{{ reference | replace_first: 'Bedru Y. Ahmed', '<u>Bedru Y. Ahmed</u>' }}"
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
