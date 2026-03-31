@@ -1,0 +1,491 @@
+---
+---
+
+
+@inproceedings{abdullah24_interspeech,
+  abbr={Interspeech},
+  author={Badr M. Abdullah and Mohammed Maqsood Shaik  and Dietrich Klakow},
+  title={Wave to Interlingua: Analyzing Representations of Multilingual Speech Transformers for Spoken Language Translation},
+  year="2024",
+  booktitle={Proceedings of INTERSPEECH},
+  html="https://www.isca-archive.org/interspeech_2024/abdullah24_interspeech.html",
+  pdf="https://www.isca-archive.org/interspeech_2024/abdullah24_interspeech.pdf",
+  abstract="In Transformer-based Speech-to-Text (S2T) translation, an encoder-decoder model is trained end-to-end to take as input an untranscribed acoustic signal in the source language and directly generate a text translation in the target language. S2T translation models can also be trained in multilingual setups where a single front-end speech encoder is shared across multiple languages. A lingering question, however, is whether the encoder represents spoken utterances in a language-neutral space. In this paper, we present an interpretability study of encoder representations in a multilingual speech translation Transformer via various probing tasks. Our main findings show that while encoder representations are not entirely language-neutral, there exists a semantic subspace that is shared across different languages. Furthermore, we discuss our findings and the implication of our study on cross-lingual learning for spoken language understanding tasks.",
+}
+
+
+@inproceedings{Krishnan24,
+  abbr={Interspeech},
+  author={Aravind Krishnan and Badr M. Abdullah and Dietrich Klakow},
+  title={On the Encoding of Gender in Transformer-based ASR Representations},
+  year="2024",
+  pubstate={submitted},
+  booktitle={Proceedings of INTERSPEECH},
+  pdf="https://arxiv.org/pdf/2406.09855.pdf",
+  html="https://www.isca-archive.org/interspeech_2024/krishnan24_interspeech.html",
+  abstract="While existing literature relies on performance differences to uncover gender biases in ASR models, a deeper analysis is essential to understand how gender is encoded and utilized during transcript generation. This work investigates the encoding and utilization of gender in the latent representations of two transformer-based ASR models, Wav2Vec2 and HuBERT. Using linear erasure, we demonstrate the feasibility of removing gender information from each layer of an ASR model and show that such an intervention has minimal impacts on the ASR performance. Additionally, our analysis reveals a concentration of gender information within the first and last frames in the final layers, explaining the ease of erasing gender in these layers. Our findings suggest the prospect of creating gender-neutral embeddings that can be integrated into ASR frameworks without compromising their efficacy.",
+}
+
+
+@inproceedings{mmshaikh23,
+  abbr={ICASSP},
+  author={Mohammed Maqsood Shaik and Dietrich Klakow and Badr M. Abdullah},
+  title={Self-supervised Adaptive Pre-training of Multilingual Speech Models for Language and Dialect Identification},
+  year="2024",
+  booktitle={Proceedings of ICASSP},
+  pdf="https://arxiv.org/pdf/2312.07338.pdf",
+  abstract="Transformer-based, pre-trained speech models have shown striking performance when finetuned on various downstream tasks such as automatic speech recognition and spoken language identification (SLID). However, the problem of domain mismatch remains a challenge in this area, where the domain of the pre-training data might differ from that of the downstream labeled data used for finetuning. In multilingual tasks such as SLID, the pre-trained speech model may not support all the languages in the downstream task. To address this challenge, we propose self-supervised adaptive pre-training (SAPT) to adapt the pre-trained model to the target domain and languages of the downstream data. We apply SAPT to the XLSR-128 model and investigate the effectiveness of this approach for the SLID task. First, we demonstrate that SAPT improves XLSR’s performance on the FLEURS benchmark with substantial gains up to 40.1\% for under-represented languages. Second, we apply SAPT on four different datasets in a few-shot learning setting, showing that our approach improves the sample efficiency of XLSR during finetuning. Our experiments provide strong empirical evidence that continual adaptation via self-supervision improves downstream performance for multilingual speech models.",
+}
+
+@inproceedings{abdullah23_interspeech,
+  abbr={Interspeech},
+  author={Badr M. Abdullah and Mohammed Maqsood Shaik and Bernd Möbius and Dietrich Klakow},
+  title={{An Information-Theoretic Analysis of Self-supervised Discrete Representations of Speech}},
+  year=2023,
+  booktitle={Proceedings of INTERSPEECH},
+  pages={2883--2887},
+  doi={10.21437/Interspeech.2023-2131},
+  html="https://www.isca-speech.org/archive/interspeech_2023/abdullah23_interspeech.html",
+  pdf="https://arxiv.org/pdf/2306.02405.pdf",
+  abstract="Self-supervised representation learning for speech often involves a quantization step that transforms the acoustic input into discrete units. However, it remains unclear how to characterize the relationship between these discrete units and abstract phonetic categories such as phonemes. In this paper, we develop an information-theoretic framework whereby we represent each phonetic category as a distribution over discrete units. We then apply our framework to two different self-supervised models (namely, wav2vec 2.0 and XLSR) and use American English speech as a case study. Our study demonstrates that the entropy of phonetic distributions reflects the variability of the underlying speech sounds, with phonetically similar sounds exhibiting similar distributions. While our study confirms the lack of direct one-to-one correspondence, we find an intriguing indirect relationship between phonetic categories and discrete units.",
+  selected={true}
+}
+
+
+
+@inproceedings{steuer-etal-2023-information,
+    title = "Information-Theoretic Characterization of Vowel Harmony: A Cross-Linguistic Study on Word Lists",
+    author = "Steuer, Julius  and
+    Abdullah, Badr M.  and
+      List, Johann-Mattis  and
+      Klakow, Dietrich",
+      abbr={SIGTYP},
+    editor = "Beinborn, Lisa  and
+      Goswami, Koustava  and
+      Murado{\u{g}}lu, Saliha  and
+      Sorokin, Alexey  and
+      Kumar, Ritesh  and
+      Shcherbakov, Andreas  and
+      Ponti, Edoardo M.  and
+      Cotterell, Ryan  and
+      Vylomova, Ekaterina",
+    booktitle = "Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP (SIGTYP)",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.sigtyp-1.10",
+    pdf="https://aclanthology.org/2023.sigtyp-1.10.pdf",
+    html = "https://aclanthology.org/2023.sigtyp-1.10",
+    doi = "10.18653/v1/2023.sigtyp-1.10",
+    pages = "96--109",
+    abstract = "We present a cross-linguistic study of vowel harmony that aims to quantify this phenomenon using data-driven computational modeling. Concretely, we define an information-theoretic measure of harmonicity based on the predictability of vowels in a natural language lexicon, which we estimate using phoneme-level language models (PLMs). Prior quantitative studies have heavily relied on inflected word-forms in the analysis on vowel harmony. On the contrary, we train our models using cross-linguistically comparable lemma forms with little or no inflection, which enables us to cover more under-studied languages. Training data for our PLMs consists of word lists offering a maximum of 1000 entries per language. Despite the fact that the data we employ are substantially smaller than previously used corpora, our experiments demonstrate the neural PLMs capture vowel harmony patterns in a set of languages that exhibit this phenomenon. Our work also demonstrates that word lists are a valuable resource for typological research, and offers new possibilities for future studies on low-resource, under-studied languages.",
+    selected={true}
+}
+
+
+
+
+
+@inproceedings{abdullah-etal-2021-familiar,
+abbr={BlackboxNLP},
+    title = "How Familiar Does That Sound? Cross-Lingual Representational Similarity Analysis of Acoustic Word Embeddings",
+    author = {Abdullah, Badr M. and
+      Zaitova, Iuliia  and
+      Avgustinova, Tania  and
+      M{\"o}bius, Bernd  and
+      Klakow, Dietrich},
+    editor = "Bastings, Jasmijn  and
+      Belinkov, Yonatan  and
+      Dupoux, Emmanuel  and
+      Giulianelli, Mario  and
+      Hupkes, Dieuwke  and
+      Pinter, Yuval  and
+      Sajjad, Hassan",
+    booktitle = "Proceedings of the Fourth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.blackboxnlp-1.32",
+    html = "https://aclanthology.org/2021.blackboxnlp-1.32",
+    pdf = "https://aclanthology.org/2021.blackboxnlp-1.32.pdf",
+    doi = "10.18653/v1/2021.blackboxnlp-1.32",
+    pages = "407--419",
+    abstract = "How do neural networks {``}perceive{''} speech sounds from unknown languages? Does the typological similarity between the model{'}s training language (L1) and an unknown language (L2) have an impact on the model representations of L2 speech signals? To answer these questions, we present a novel experimental design based on representational similarity analysis (RSA) to analyze acoustic word embeddings (AWEs){---}vector representations of variable-duration spoken-word segments. First, we train monolingual AWE models on seven Indo-European languages with various degrees of typological similarity. We then employ RSA to quantify the cross-lingual similarity by simulating native and non-native spoken-word processing using AWEs. Our experiments show that typological similarity indeed affects the representational similarity of the models in our study. We further discuss the implications of our work on modeling speech processing and language similarity with neural networks.",
+    selected={true}
+}
+
+
+
+@inproceedings{abdullah-etal-2023-nature,
+    abbr={SIGTYP},
+    title = "On the Nature of Discrete Speech Representations in Multilingual Self-supervised Models",
+    author = "Abdullah, Badr M.  and
+      Shaik, Mohammed Maqsood  and
+      Klakow, Dietrich",
+    editor = "Beinborn, Lisa  and
+      Goswami, Koustava  and
+      Murado{\u{g}}lu, Saliha  and
+      Sorokin, Alexey  and
+      Kumar, Ritesh  and
+      Shcherbakov, Andreas  and
+      Ponti, Edoardo M.  and
+      Cotterell, Ryan  and
+      Vylomova, Ekaterina",
+    booktitle = "Proceedings of the 5th Workshop on Research in Computational Linguistic Typology and Multilingual NLP (SIGTYP)",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.sigtyp-1.20",
+    html = "https://aclanthology.org/2023.sigtyp-1.20",
+    pdf = "https://aclanthology.org/2023.sigtyp-1.20.pdf",
+    doi = "10.18653/v1/2023.sigtyp-1.20",
+    pages = "159--161",
+    abstract = "Self-supervision has emerged as an effective paradigm for learning representations of spoken language from raw audio without explicit labels or transcriptions. Self-supervised speech models, such as wav2vec 2.0 (Baevski et al., 2020) and HuBERT (Hsu et al., 2021), have shown significant promise in improving the performance across different speech processing tasks. One of the main advantages of self-supervised speech models is that they can be pre-trained on a large sample of languages (Conneau et al., 2020; Babu et al.,2022), which facilitates cross-lingual transfer for low-resource languages (San et al., 2021). State-of-the-art self-supervised speech models include a quantization module that transforms the continuous acoustic input into a sequence of discrete units. One of the key questions in this area is whether the discrete representations learned via self-supervision are language-specific or language-universal. In other words, we ask: do the discrete units learned by a multilingual speech model represent the same speech sounds across languages or do they differ based on the specific language being spoken? From the practical perspective, this question has important implications for the development of speech models that can generalize across languages, particularly for low-resource languages. Furthermore, examining the level of linguistic abstraction in speech models that lack symbolic supervision is also relevant to the field of human language acquisition (Dupoux, 2018).",
+}
+
+@inproceedings{abdullah-klakow-2022-analyzing,
+    abbr={BlackboxNLP},
+    title = "Analyzing the Representational Geometry of Acoustic Word Embeddings",
+    author = "Abdullah, Badr M. and
+      Klakow, Dietrich",
+    editor = "Bastings, Jasmijn  and
+      Belinkov, Yonatan  and
+      Elazar, Yanai  and
+      Hupkes, Dieuwke  and
+      Saphra, Naomi  and
+      Wiegreffe, Sarah",
+    booktitle = "Proceedings of the Fifth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.blackboxnlp-1.15",
+    html = "https://aclanthology.org/2022.blackboxnlp-1.15",
+    pdf = "https://aclanthology.org/2022.blackboxnlp-1.15.pdf",
+    doi = "10.18653/v1/2022.blackboxnlp-1.15",
+    pages = "178--191",
+    abstract = "Acoustic word embeddings (AWEs) are fixed-dimensionality vector representations in a vector space such that different acoustic exemplars of the same word are projected nearby in the embedding space. In addition to their use in speech technology applications such as spoken term discovery and keyword spotting, AWE models have been adopted as models of spoken-word processing in several cognitively motivated studies and they have shown to exhibit a human-like performance in some auditory processing tasks. Nevertheless, the representation geometry of AWEs remains an under-explored topic that has not been studied in the literature. In this paper, we take a closer analytical look at AWEs and study how the choice of the learning objective and the architecture shapes their representational profile. Our main findings highlight the prominent role of the learning objective on the representational geometry over the architecture.",
+}
+
+
+@inproceedings{zaitova-etal-2022-mapping,
+    abbr={VarDial},
+    title = "Mapping Phonology to Semantics: A Computational Model of Cross-Lingual Spoken-Word Recognition",
+    author = "Zaitova, Iuliia  and
+      Abdullah, Badr M. and
+      Klakow, Dietrich",
+    editor = {Scherrer, Yves  and
+      Jauhiainen, Tommi  and
+      Ljube{\v{s}}i{\'c}, Nikola  and
+      Nakov, Preslav  and
+      Tiedemann, J{\"o}rg  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the Ninth Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.vardial-1.6",
+    html = "https://aclanthology.org/2022.vardial-1.6",
+    pdf = "https://aclanthology.org/2022.vardial-1.6.pdf",
+    pages = "54--63",
+    abstract = "Closely related languages are often mutually intelligible to various degrees. Therefore, speakers of closely related languages are usually capable of (partially) comprehending each other{'}s speech without explicitly learning the target, second language. The cross-linguistic intelligibility among closely related languages is mainly driven by linguistic factors such as lexical similarities. This paper presents a computational model of spoken-word recognition and investigates its ability to recognize word forms from different languages than its native, training language. Our model is based on a recurrent neural network that learns to map a word{'}s phonological sequence onto a semantic representation of the word. Furthermore, we present a case study on the related Slavic languages and demonstrate that the cross-lingual performance of our model not only predicts mutual intelligibility to a large extent but also reflects the genetic classification of the languages in our study.",
+}
+
+@inproceedings{abdullah22_interspeech,
+  abbr={Interspeech},
+  author={Badr M. Abdullah and Bernd Möbius and Dietrich Klakow},
+  title={{Integrating Form and Meaning: A Multi-Task Learning Model for Acoustic Word Embeddings}},
+  year=2022,
+  month=sep,
+  booktitle={Proceedings of INTERSPEECH},
+  pages={1876--1880},
+  doi={10.21437/Interspeech.2022-626},
+  html="https://www.isca-speech.org/archive/interspeech_2022/abdullah22_interspeech.html",
+  pdf="https://arxiv.org/pdf/2209.06633.pdf",
+  abstract="Models of acoustic word embeddings (AWEs) learn to map variable-length spoken word segments onto fixed-dimensionality vector representations such that different acoustic exemplars of the same word are projected nearby in the embedding space. In addition to their speech technology applications, AWE models have been shown to predict human performance on a variety of auditory lexical processing tasks. Current AWE models are based on neural networks and trained in a bottom-up approach that integrates acoustic cues to build up a word representation given an acoustic or symbolic supervision signal. Therefore, these models do not leverage or capture high-level lexical knowledge during the learning process. In this paper, we propose a multi-task learning model that incorporates top-down lexical knowledge into the training procedure of AWEs. Our model learns a mapping between the acoustic input and a lexical representation that encodes high-level information such as word semantics in addition to bottom-up form-based supervision. We experiment with three languages and demonstrate that incorporating lexical knowledge improves the embedding space discriminability and encourages the model to better separate lexical categories.",
+}
+
+@inproceedings{abdullah21_interspeech,
+  abbr={Interspeech},
+  author={Badr M. Abdullah and Marius Mosbach and Iuliia Zaitova and Bernd Möbius and Dietrich Klakow},
+  title={{Do Acoustic Word Embeddings Capture Phonological Similarity? An Empirical Study}},
+  year="2021",
+  month=sep,
+  booktitle={Proceedings of INTERSPEECH},
+  pages={4194--4198},
+  doi={10.21437/Interspeech.2021-678},
+  html="https://www.isca-speech.org/archive/interspeech_2021/abdullah21_interspeech.html",
+  pdf="https://arxiv.org/pdf/2106.08686.pdf",
+  abstract="Several variants of deep neural networks have been successfully employed for building parametric models that project variable-duration spoken word segments onto fixed-size vector representations, or acoustic word embeddings (AWEs). However, it remains unclear to what degree we can rely on the distance in the emerging AWE space as an estimate of word-form similarity. In this paper, we ask: does the distance in the acoustic embedding space correlate with phonological dissimilarity? To answer this question, we empirically investigate the performance of supervised approaches for AWEs with different neural architectures and learning objectives. We train AWE models in controlled settings for two languages (German and Czech) and evaluate the embeddings on two tasks: word discrimination and phonological similarity. Our experiments show that (1) the distance in the embedding space in the best cases only moderately correlates with phonological distance, and (2) improving the performance on the word discrimination task does not necessarily yield models that better reflect word phonological similarity. Our findings highlight the necessity to rethink the current intrinsic evaluations for AWEs. ",
+}
+
+inproceedings{abdullah-etal-2021-familiar,
+    abbr={BlackboxNLP},
+    title = "How Familiar Does That Sound? Cross-Lingual Representational Similarity Analysis of Acoustic Word Embeddings",
+    author = {Abdullah, Badr  and
+      Zaitova, Iuliia  and
+      Avgustinova, Tania  and
+      M{\"o}bius, Bernd  and
+      Klakow, Dietrich},
+    editor = "Bastings, Jasmijn  and
+      Belinkov, Yonatan  and
+      Dupoux, Emmanuel  and
+      Giulianelli, Mario  and
+      Hupkes, Dieuwke  and
+      Pinter, Yuval  and
+      Sajjad, Hassan",
+    booktitle = "Proceedings of the Fourth BlackboxNLP Workshop on Analyzing and Interpreting Neural Networks for NLP",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.blackboxnlp-1.32",
+    html = "https://aclanthology.org/2021.blackboxnlp-1.32",
+    pdf = "https://aclanthology.org/2021.blackboxnlp-1.32.pdf",
+    doi = "10.18653/v1/2021.blackboxnlp-1.32",
+    pages = "407--419",
+    abstract = "How do neural networks {``}perceive{''} speech sounds from unknown languages? Does the typological similarity between the model{'}s training language (L1) and an unknown language (L2) have an impact on the model representations of L2 speech signals? To answer these questions, we present a novel experimental design based on representational similarity analysis (RSA) to analyze acoustic word embeddings (AWEs){---}vector representations of variable-duration spoken-word segments. First, we train monolingual AWE models on seven Indo-European languages with various degrees of typological similarity. We then employ RSA to quantify the cross-lingual similarity by simulating native and non-native spoken-word processing using AWEs. Our experiments show that typological similarity indeed affects the representational similarity of the models in our study. We further discuss the implications of our work on modeling speech processing and language similarity with neural networks.",
+}
+
+
+
+
+
+
+
+
+@inproceedings{salesky-etal-2021-sigtyp,
+abbr={SIGTYP},
+    title = "{SIGTYP} 2021 Shared Task: Robust Spoken Language Identification",
+    author = "Salesky, Elizabeth  and
+      Abdullah, Badr M.  and
+      Mielke, Sabrina  and
+      Klyachko, Elena  and
+      Serikov, Oleg  and
+      Ponti, Edoardo Maria  and
+      Kumar, Ritesh  and
+      Cotterell, Ryan  and
+      Vylomova, Ekaterina",
+    editor = {Vylomova, Ekaterina  and
+      Salesky, Elizabeth  and
+      Mielke, Sabrina  and
+      Lapesa, Gabriella  and
+      Kumar, Ritesh  and
+      Hammarstr{\"o}m, Harald  and
+      Vuli{\'c}, Ivan  and
+      Korhonen, Anna  and
+      Reichart, Roi  and
+      Ponti, Edoardo Maria  and
+      Cotterell, Ryan},
+    booktitle = "Proceedings of the Third Workshop on Computational Typology and Multilingual NLP (SIGTYP)",
+    month = jun,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.sigtyp-1.11",
+    doi = "10.18653/v1/2021.sigtyp-1.11",
+    pages = "122--129",
+    pdf="https://aclanthology.org/2021.sigtyp-1.11.pdf",
+    html = "https://aclanthology.org/2021.sigtyp-1.11",
+    abstract = "While language identification is a fundamental speech and language processing task, for many languages and language families it remains a challenging task. For many low-resource and endangered languages this is in part due to resource availability: where larger datasets exist, they may be single-speaker or have different domains than desired application scenarios, demanding a need for domain and speaker-invariant language identification systems. This year{'}s shared task on robust spoken language identification sought to investigate just this scenario: systems were to be trained on largely single-speaker speech from one domain, but evaluated on data in other domains recorded from speakers under different recording circumstances, mimicking realistic low-resource scenarios. We see that domain and speaker mismatch proves very challenging for current methods which can perform above 95{\%} accuracy in-domain, which domain adaptation can address to some degree, but that these conditions merit further investigation to make spoken language identification accessible in many scenarios.",
+    selected={true}
+}
+
+
+@inproceedings{macher-etal-2021-read,
+    abbr={EACL},
+    title = "Do we read what we hear? Modeling orthographic influences on spoken word recognition",
+    author = "Macher, Nicole  and
+      Abdullah, Badr M.  and
+      Brouwer, Harm  and
+      Klakow, Dietrich",
+    editor = "Sorodoc, Ionut-Teodor  and
+      Sushil, Madhumita  and
+      Takmaz, Ece  and
+      Agirre, Eneko",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL): Student Research Workshop",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-srw.3",
+    html = "https://aclanthology.org/2021.eacl-srw.3",
+    pdf = "https://aclanthology.org/2021.eacl-srw.3.pdf",
+    doi = "10.18653/v1/2021.eacl-srw.3",
+    pages = "16--22",
+    abstract = "Theories and models of spoken word recognition aim to explain the process of accessing lexical knowledge given an acoustic realization of a word form. There is consensus that phonological and semantic information is crucial for this process. However, there is accumulating evidence that orthographic information could also have an impact on auditory word recognition. This paper presents two models of spoken word recognition that instantiate different hypotheses regarding the influence of orthography on this process. We show that these models reproduce human-like behavior in different ways and provide testable hypotheses for future research on the source of orthographic effects in spoken word recognition.",
+}
+
+@inproceedings{mayn-etal-2021-familiar,
+  abbr={EACL},
+    title = "Familiar words but strange voices: Modelling the influence of speech variability on word recognition",
+    author = "Mayn, Alexandra  and
+      Abdullah, Badr M.  and
+      Klakow, Dietrich",
+    editor = "Sorodoc, Ionut-Teodor  and
+      Sushil, Madhumita  and
+      Takmaz, Ece  and
+      Agirre, Eneko",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics (EACL): Student Research Workshop",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.eacl-srw.14",
+    html = "https://aclanthology.org/2021.eacl-srw.14",
+    pdf = "https://aclanthology.org/2021.eacl-srw.14",
+    doi = "10.18653/v1/2021.eacl-srw.14",
+    pages = "96--102",
+    abstract = "We present a deep neural model of spoken word recognition which is trained to retrieve the meaning of a word (in the form of a word embedding) given its spoken form, a task which resembles that faced by a human listener. Furthermore, we investigate the influence of variability in speech signals on the model{'}s performance. To this end, we conduct of set of controlled experiments using word-aligned read speech data in German. Our experiments show that (1) the model is more sensitive to dialectical variation than gender variation, and (2) recognition performance of word cognates from related languages reflect the degree of relatedness between languages in our study. Our work highlights the feasibility of modeling human speech perception using deep neural networks.",
+}
+
+
+@inproceedings{abdullah-etal-2020-rediscovering,
+  abbr={VarDial},
+    title = "Rediscovering the {S}lavic Continuum in Representations Emerging from Neural Models of Spoken Language Identification",
+    author = {Abdullah, Badr M.  and
+      Kudera, Jacek  and
+      Avgustinova, Tania  and
+      M{\"o}bius, Bernd  and
+      Klakow, Dietrich},
+    editor = {Zampieri, Marcos  and
+      Nakov, Preslav  and
+      Ljube{\v{s}}i{\'c}, Nikola  and
+      Tiedemann, J{\"o}rg  and
+      Scherrer, Yves},
+    booktitle = "Proceedings of the 7th Workshop on NLP for Similar Languages, Varieties and Dialects (VarDial)",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics (ICCL)",
+    url = "https://aclanthology.org/2020.vardial-1.12",
+    html = "https://aclanthology.org/2020.vardial-1.12",
+    pdf = "https://aclanthology.org/2020.vardial-1.12.pdf",
+    pages = "128--139",
+    abstract = "Deep neural networks have been employed for various spoken language recognition tasks, including tasks that are multilingual by definition such as spoken language identification (LID). In this paper, we present a neural model for Slavic language identification in speech signals and analyze its emergent representations to investigate whether they reflect objective measures of language relatedness or non-linguists{'} perception of language similarity. While our analysis shows that the language representation space indeed captures language relatedness to a great extent, we find perceptual confusability to be the best predictor of the language representation similarity.",
+}
+
+@inproceedings{mosbach-etal-2020-closer,
+    abbr={COLING},
+    title = "A Closer Look at Linguistic Knowledge in Masked Language Models: The Case of Relative Clauses in {A}merican {E}nglish",
+    author = "Mosbach, Marius  and
+      Degaetano-Ortlieb, Stefania  and
+      Krielke, Marie-Pauline  and
+      Abdullah, Badr M.  and
+      Klakow, Dietrich",
+    editor = "Scott, Donia  and
+      Bel, Nuria  and
+      Zong, Chengqing",
+    booktitle = "Proceedings of the 28th International Conference on Computational Linguistics (COLING)",
+    month = dec,
+    year = "2020",
+    address = "Barcelona, Spain (Online)",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2020.coling-main.67",
+    html = "https://aclanthology.org/2020.coling-main.67",
+    pdf = "https://aclanthology.org/2020.coling-main.67.pdf",
+    doi = "10.18653/v1/2020.coling-main.67",
+    pages = "771--787",
+    abstract = "Transformer-based language models achieve high performance on various tasks, but we still lack understanding of the kind of linguistic knowledge they learn and rely on. We evaluate three models (BERT, RoBERTa, and ALBERT), testing their grammatical and semantic knowledge by sentence-level probing, diagnostic cases, and masked prediction tasks. We focus on relative clauses (in American English) as a complex phenomenon needing contextual information and antecedent identification to be resolved. Based on a naturalistic dataset, probing shows that all three models indeed capture linguistic knowledge about grammaticality, achieving high performance. Evaluation on diagnostic cases and masked prediction tasks considering fine-grained linguistic knowledge, however, shows pronounced model-specific weaknesses especially on semantic knowledge, strongly impacting models{'} performance. Our results highlight the importance of (a)model comparison in evaluation task and (b) building up claims of model performance and the linguistic knowledge they capture beyond purely probing-based evaluations.",
+}
+
+@inproceedings{abdullah20_interspeech,
+abbr={Interspeech},
+  author={Badr M. Abdullah and Tania Avgustinova and Bernd Möbius and Dietrich Klakow},
+  title={{Cross-Domain Adaptation of Spoken Language Identification for Related Languages: The Curious Case of Slavic Languages}},
+  year=2020,
+  month=oct,
+  booktitle={Proceedings of INTERSPEECH},
+  pages={477--481},
+  doi={10.21437/Interspeech.2020-2930},
+  pdf="https://arxiv.org/pdf/2008.00545.pdf",
+  html="https://www.isca-speech.org/archive/interspeech_2020/abdullah20_interspeech.html",
+  abstract = "State-of-the-art spoken language identification (LID) systems, which are based on end-to-end deep neural networks, have shown remarkable success not only in discriminating between distant languages but also between closely-related languages or even different spoken varieties of the same language. However, it is still unclear to what extent neural LID models generalize to speech samples with different acoustic conditions due to domain shift. In this paper, we present a set of experiments to investigate the impact of domain mismatch on the performance of neural LID systems for a subset of six Slavic languages across two domains (read speech and radio broadcast) and examine two low-level signal descriptors (spectral and cepstral features) for this task. Our experiments show that (1) out-of-domain speech samples severely hinder the performance of neural LID models, and (2) while both spectral and cepstral features show comparable performance within-domain, spectral features show more robustness under domain mismatch. Moreover, we apply unsupervised domain adaptation to minimize the discrepancy between the two domains in our study. We achieve relative accuracy improvements that range from 9% to 77% depending on the diversity of acoustic conditions in the source domain. ",
+}
+
+
+string{aps = {American Physical Society,}}
+
+book{einstein1956investigations,
+  bibtex_show={true},
+  title={Investigations on the Theory of the Brownian Movement},
+  author={Einstein, Albert},
+  year={1956},
+  publisher={Courier Corporation},
+  preview={brownian-motion.gif}
+}
+
+article{einstein1950meaning,
+  abbr={AJP},
+  bibtex_show={true},
+  title={The meaning of relativity},
+  author={Einstein, Albert and Taub, AH},
+  journal={American Journal of Physics},
+  volume={18},
+  number={6},
+  pages={403--404},
+  year={1950},
+  publisher={American Association of Physics Teachers}
+}
+
+article{PhysRev.47.777,
+  abbr={PhysRev},
+  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author={Einstein, A. and Podolsky, B. and Rosen, N.},
+  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal={Phys. Rev.},
+  volume={47},
+  issue={10},
+  pages={777--780},
+  numpages={0},
+  year={1935},
+  month={May},
+  publisher=aps,
+  doi={10.1103/PhysRev.47.777},
+  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf={example_pdf.pdf},
+  altmetric={248277},
+  dimensions={true},
+  selected={false}
+}
+
+article{einstein1905molekularkinetischen,
+  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author={Einstein, A.},
+  journal={Annalen der physik},
+  volume={322},
+  number={8},
+  pages={549--560},
+  year={1905},
+  publisher={Wiley Online Library}
+}
+
+article{einstein1905movement,
+  abbr={Ann. Phys.},
+  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author={Einstein, A.},
+  journal={Ann. Phys.},
+  volume={17},
+  pages={549--560},
+  year={1905}
+}
+
+article{einstein1905electrodynamics,
+  title={On the electrodynamics of moving bodies},
+  author={Einstein, A.},
+  year={1905}
+}
+
+book{przibram1967letters,
+  bibtex_show={true},
+  title={Letters on wave mechanics},
+  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year={1967},
+  publisher={Vision},
+  preview={wave-mechanics.gif}
+}
