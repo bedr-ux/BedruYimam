@@ -28,8 +28,7 @@ My work focuses on applying machine learning to various problems in **Speech Tec
 I completed my Master in the [**BahirDar university**](https://www.bdu.edu.et/) program with the prestigious **Erasmus Mundus scholarship** funded by the Wollo Universtiy.
 
 
-I am a currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo Universtiy](https://wu.edu.et/kiot/). I work with [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&amp;hl=en&amp;oi=ao) and [Bernd Möbius](https://www.coli.uni-saarland.de/~moebius/mywww/index.html).
-
+I am a currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo Universtiy](https://wu.edu.et/kiot/). 
 
 I am always excited to chat and learn more about ...
 
