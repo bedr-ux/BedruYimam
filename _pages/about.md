@@ -25,7 +25,7 @@ Hey there 👋🏼 I'm Bedru, a **Computational Speech Processing** researcher a
 My work focuses on applying machine learning to various problems in **Speech Technology** [audio modality 💬] and **Natural Language Processing** [text modality 📝]. I have always been excited about broadening language technology to many of the under-represented languages of the world.
 
 
-I completed my Master in the [**BahirDar university**](https://www.bdu.edu.et/) program with the prestigious **Erasmus Mundus scholarship** funded by the Wollo Universtiy.
+I completed my Master in the [**BahirDar university**](https://www.bdu.edu.et/) program with the prestigious **Information Technology** funded by the Wollo Universtiy.
 
 
 I am a currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo Universtiy](https://wu.edu.et/kiot/). 
