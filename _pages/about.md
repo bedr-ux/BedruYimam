@@ -28,7 +28,7 @@ My work focuses on applying machine learning to various problems in **Speech Tec
 I completed my Master in the [**BahirDar university**](https://www.bdu.edu.et/) program with the prestigious **Information Technology** funded by the Wollo Universtiy.
 
 
-I am a currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo Universtiy](https://wu.edu.et/kiot/). 
+I am currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo Universtiy](https://wu.edu.et/kiot/). 
 
 ### 🌟 Areas of Focus & Collaboration
 I am always excited to chat and learn more about:
