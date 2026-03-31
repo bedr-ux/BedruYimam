@@ -30,15 +30,15 @@ I completed my Master in the [**BahirDar university**](https://www.bdu.edu.et/) 
 
 I am a currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo Universtiy](https://wu.edu.et/kiot/). 
 
-I am always excited to chat and learn more about ...
+### 🌟 Areas of Focus & Collaboration
+I am always excited to chat and learn more about:
 
-* **AI Applications for Social Good** 🍏 Whether we like it or not, AI will impact many aspects of our lives. So how do we steer AI technologies to make a positive social impact? From education to healthcare, what are the possibilities and challenges?
+* **AI for Social Good 🍏** How can we steer AI technologies to create a positive social impact in fields like education and healthcare? What are the unique challenges and possibilities in these domains?
 
-* **Language Technology and Digital Humanities** 📚 Our ancestors have left us a wealth of knowledge. Can intelligent language technologies help preserve this rich cultural heritage? How can we make humankind's historical wisdom accessible and searchable for all curious minds?
+* **Digital Humanities & Heritage 📚** Our ancestors left a wealth of knowledge. Can intelligent language technologies help preserve this rich cultural heritage and make historical wisdom searchable for all curious minds?
 
-<!-- * **Language Processing in Humans and Machines** 🧠 Large Language Models (LLMs) excel at processing and generating natural language. Can they teach us something about language processing in the human brain? Can our linguistic theories inspire us to build computational frameworks for neural network interpretability? -->
+* **Language Processing in Humans and Machines 🧠** Can LLMs teach us about language processing in the human brain? How can linguistic theories inspire new computational frameworks for **Neural Network Interpretability**?
 
-* **Multilinguality and Language Variation** 🌐 Not all languages are fairly represented in today’s language technology. How can we develop language technologies that are more inclusive and celebrate the linguistic diversity of humankind?
-
+* **Multilinguality and Global Inclusion 🌐** Not all languages are fairly represented in today’s tech. How can we develop technologies that are more inclusive and celebrate the linguistic diversity of humankind?
 
 &nbsp;
