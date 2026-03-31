@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://badrex.github.io/sitemap.xml
+Sitemap: https://bedr-ux.github.io/BedruYimam/sitemap.xml
