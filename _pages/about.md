@@ -35,10 +35,11 @@ I am always excited to chat and learn more about:
 
 * **AI for Social Good 🍏** How can we steer AI technologies to create a positive social impact in fields like education and healthcare? What are the unique challenges and possibilities in these domains?
 
+* **Multilinguality and Global Inclusion 🌐** Not all languages are fairly represented in today’s tech. How can we develop technologies that are more inclusive and celebrate the linguistic diversity of humankind?
+
 * **Digital Humanities & Heritage 📚** Our ancestors left a wealth of knowledge. Can intelligent language technologies help preserve this rich cultural heritage and make historical wisdom searchable for all curious minds?
 
 * **Language Processing in Humans and Machines 🧠** Can LLMs teach us about language processing in the human brain? How can linguistic theories inspire new computational frameworks for **Neural Network Interpretability**?
 
-* **Multilinguality and Global Inclusion 🌐** Not all languages are fairly represented in today’s tech. How can we develop technologies that are more inclusive and celebrate the linguistic diversity of humankind?
 
 &nbsp;
