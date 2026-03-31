@@ -20,7 +20,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-# Hey there! 👋 I'm Bedru Yimam Ahmed.
+# Hey there! 👋 I'm Bedru.
 
 [cite_start]I am a **Lecturer and Researcher** at **Wollo University** with a deep focus on **Artificial Intelligence**, **Computer Vision**, and **Full-Stack Development**[cite: 8, 16]. [cite_start]My career is dedicated to bridging the gap between academic research and practical technological solutions within the Ethiopian landscape[cite: 8, 9].
 
