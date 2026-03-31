@@ -9,43 +9,37 @@ profile:
   image: bedru.jpg
   image_circular: false # crops the image to make it circular
 #more_info: >
-#    <p>bedruy4@gmail.com</p>
-#    <p>Wollo University, IT Department</p>
-#    <p>Dese, Ethiopia</p>
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p> rgb(16, 66, 122)
 
 news: true  # includes a list of news items
 research_interests: false  # includes a list of areas of research interests
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page ### Generic Research Interests &nbsp;
+#Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 ---
+Hey there 👋🏼 I'm Bedru, a **Computational Speech Processing** researcher and **Language Technology** expert.
 
-# Hey there! 👋 I'm Bedru.
+My work focuses on applying machine learning to various problems in **Speech Technology** [audio modality 💬] and **Natural Language Processing** [text modality 📝]. I have always been excited about broadening language technology to many of the under-represented languages of the world.
 
-[cite_start]I am a **Lecturer and Researcher** at **Wollo University** with a deep focus on **Artificial Intelligence**, **Computer Vision**, and **Full-Stack Development**[cite: 8, 16]. [cite_start]My career is dedicated to bridging the gap between academic research and practical technological solutions within the Ethiopian landscape[cite: 8, 9].
 
-### 🎓 Academic Background
-[cite_start]I hold an **M.Sc. in Information Technology** from **Bahir Dar University** and a **B.Sc. in Information Technology** from **Woldia University**[cite: 4]. [cite_start]My academic journey has provided me with a robust foundation in system architecture and advanced computational methods[cite: 4, 14].
+I completed my Master in the [**BahirDar university**](https://www.bdu.edu.et/) program with the prestigious **Erasmus Mundus scholarship** funded by the Wollo Universtiy.
 
-### 🔬 Research Contributions
-[cite_start]My research focuses on applying **Deep Learning** to solve local and industrial challenges[cite: 9, 16]. Key areas of my work include:
-* [cite_start]**Computer Vision:** Ethiopian License Plate Detection using Deep CNNs[cite: 9].
-* [cite_start]**Natural Language Processing:** Multimodal Amharic Fake News Detection[cite: 9].
-* [cite_start]**Deep Learning Applications:** Classification of Opal minerals using neural networks[cite: 9].
 
----
+I am a currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo Universtiy](https://wu.edu.et/kiot/). I work with [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&amp;hl=en&amp;oi=ao) and [Bernd Möbius](https://www.coli.uni-saarland.de/~moebius/mywww/index.html).
 
-### 🌟 Expertise & Mentorship
-With extensive experience in **Full-Stack Development** (Laravel, Next.js, React) and **AI Frameworks** (TensorFlow, PyTorch), I am passionate about:
 
-* [cite_start]**Technical Mentorship 👨‍🏫:** Having advised over 80 students, I focus on career-aligned skill development, from system architecture to code optimization[cite: 14].
-* [cite_start]**System Innovation 💻:** Developing practical platforms like Student Information Systems and E-Learning portals to enhance academic efficiency[cite: 14].
-* [cite_start]**Curriculum Design 📚:** Aligning IT education with emerging global standards in Blockchain, IoT, and AI[cite: 8].
-* [cite_start]**Impactful AI 🌍:** Leveraging machine learning for social good, ensuring technology serves the needs of our community[cite: 9].
+I am always excited to chat and learn more about ...
 
-### 🛠️ Technical Stack
-* [cite_start]**Languages:** Python, Java, PHP, JavaScript, SQL, C++ [cite: 16]
-* [cite_start]**Web:** Laravel, Next.js, React.js, MySQL [cite: 16]
-* [cite_start]**AI/ML:** TensorFlow, PyTorch, NLP, Computer Vision [cite: 16]
+* **AI Applications for Social Good** 🍏 Whether we like it or not, AI will impact many aspects of our lives. So how do we steer AI technologies to make a positive social impact? From education to healthcare, what are the possibilities and challenges?
+
+* **Language Technology and Digital Humanities** 📚 Our ancestors have left us a wealth of knowledge. Can intelligent language technologies help preserve this rich cultural heritage? How can we make humankind's historical wisdom accessible and searchable for all curious minds?
+
+<!-- * **Language Processing in Humans and Machines** 🧠 Large Language Models (LLMs) excel at processing and generating natural language. Can they teach us something about language processing in the human brain? Can our linguistic theories inspire us to build computational frameworks for neural network interpretability? -->
+
+* **Multilinguality and Language Variation** 🌐 Not all languages are fairly represented in today’s language technology. How can we develop language technologies that are more inclusive and celebrate the linguistic diversity of humankind?
+
 
 &nbsp;
