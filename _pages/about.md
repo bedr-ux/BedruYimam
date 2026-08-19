@@ -19,13 +19,14 @@ social: true  # includes social icons at the bottom of the page ### Generic Rese
 #Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 ---
 
-Hey there, I'm Bedru Yimam, a **Computational Speech Processing** researcher and **Language Technology** expert.
+Hey there, I'm Bedru Yimam, an **LLM for Low-Resource Languages** researcher and **Language Technology** expert.
 
-My work focuses on applying machine learning to various problems in **Speech Technology** [audio modality] and **Natural Language Processing** [text modality]. I have always been excited about broadening language technology to many of the under-represented languages of the world. My current interests extend into **Large Language Models (LLMs)**, **Data Science**, **Agentic AI**, **Retrieval-Augmented Generation (RAG)**, and **Machine Learning**, exploring how these advances can be adapted to serve low-resource languages and communities.
+My work focuses on applying machine learning to problems in **Speech Technology** [audio modality] and **Natural Language Processing** [text modality]. I have always been excited about broadening language technology to many of the under-represented languages of the world. My interests have since expanded into **Large Language Models (LLMs)**, **Agentic AI**, **Retrieval-Augmented Generation (RAG)**, and **Data Science**, where I explore how these advances can be adapted to serve low-resource languages and communities.
 
-I completed my Master's in the [**BahirDar University**](https://www.bdu.edu.et/) program with the prestigious **Information Technology** funded by Wollo University.
+I completed my Master's in [**BahirDar University**](https://www.bdu.edu.et/)'s **Information Technology** program, funded by Wollo University.
 
 I am currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo University](https://wu.edu.et/kiot/).
+
 
 ### Areas of Focus & Collaboration
 
