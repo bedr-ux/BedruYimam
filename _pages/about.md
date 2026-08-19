@@ -15,12 +15,12 @@ profile:
 
 news: true  # includes a list of news items
 research_interests: true  # includes a list of areas of research interests
-latest_posts: false  # includes a list of the newest posts
+latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page ### Generic Research Interests &nbsp;
 #Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 ---
-Hey there  I'm Bedru, a **Computational Speech Processing** researcher and **Language Technology** expert.
+Hey there  I'm Bedru Yimam, a **Computational Speech Processing** researcher and **Language Technology** expert.
 
 My work focuses on applying machine learning to various problems in **Speech Technology** [audio modality 💬] and **Natural Language Processing** [text modality 📝]. I have always been excited about broadening language technology to many of the under-represented languages of the world.
 
