@@ -3,10 +3,14 @@ layout: page
 title: projects
 permalink: /projects/
 description: A Retrieval-Augmented Generation (RAG) assistant for Antenatal Care (ANC) clinical guidelines, built to answer questions in English  using a locally-run open-weight LLM..
-nav: false
+nav: true
 nav_order: 2
 display_categories: [work, fun]
 horizontal: false
+
+---
+<!-- _pages/publications.md -->
+<div class="publications">
 ---
 
 <!-- pages/projects.md -->
