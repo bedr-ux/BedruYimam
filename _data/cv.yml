@@ -6,7 +6,7 @@
     - name: Date of Birth
       value:Maech 03 1994
     - name: Languages
-      value: English, Amahric
+      value: Amharic, English
 
 - title: Education
   type: time_table
