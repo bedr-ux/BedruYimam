@@ -9,9 +9,7 @@ display_categories: [work, fun]
 horizontal: false
 
 ---
-<!-- _pages/publications.md -->
-<div class="publications">
----
+
 
 <!-- pages/projects.md -->
 <div class="projects">
