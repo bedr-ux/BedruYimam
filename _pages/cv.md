@@ -1,7 +1,7 @@
 ---
 layout: cv
 permalink: /cv/
-title: cv
+title: MyCv
 nav: true
 nav_order: 2
 cv_pdf: Bedru_Yimam_Ahmed_CV.pdf
