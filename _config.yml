@@ -163,9 +163,7 @@ external_sources:
 # -----------------------------------------------------------------------------
 
 collections:
-  about:
-    output: true
-    permalink: /about/:path/
+  
   news:
     defaults:
       layout: post
