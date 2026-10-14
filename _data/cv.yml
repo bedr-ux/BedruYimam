@@ -2,96 +2,47 @@
   type: map
   contents:
     - name: Full Name
-      value: Bedru Yimam
-    - name: Date of Birth
-      value:Maech 03 1994
+      value: Bedru Yimam Ahmed
+    - name: Current Role
+      value: Lecturer & Multilingual NLP / Speech Researcher
+    - name: Affiliation
+      value: Wollo University (Kombolcha Institute of Technology - KIoT), Ethiopia
+    - name: Department
+      value: Department of Information Technology
+    - name: Email
+      value: bedruy4@gmail.com
     - name: Languages
-      value: Amharic, English
+      value: Amharic (Native), English (Fluent)
 
 - title: Education
   type: time_table
   contents:
-    - title: Msc
-      institution: Bahir Dar Universtiy,Ethiopia
+    - title: Master of Science (MSc) in Information Technology
+      institution: Bahir Dar University (BDU), Ethiopia
       year: 2020
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Bsc
-      institution: Woldia Universtiy, Ethiopia
+        - Specialized in Machine Learning, Low-Resource Language Technologies, and Information Systems.
+    - title: Bachelor of Science (BSc) in Information Technology
+      institution: Woldia University, Ethiopia
       year: 2017
       description:
-        - Description 1.
-        - Description 2.
+        - Graduated with distinction in Information Technology and Computing.
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Lecturer
-      institution: Wollo University
-      year: 2020 - now
+    - title: Lecturer & Researcher
+      institution: Wollo University (Kombolcha Institute of Technology - KIoT), Ethiopia
+      year: 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Department of Information Technology.
+        - Research in Low-Resource Semitic NLP, Ethiopic LLMs, Subword Tokenization, and Dialect Speech Recognition.
+        - Teaching undergraduate and postgraduate courses in Natural Language Processing, Machine Learning, and Software Engineering.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Research Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Large Language Models (LLMs) & Subword Tokenization for Semitic/Ge'ez Languages
+    - Parameter-Efficient Fine-Tuning (PEFT / LoRA) for Automatic Speech Recognition (ASR)
+    - Retrieval-Augmented Generation (RAG) for Clinical and Low-Resource Domains
+    - Multimodal Deep Learning for African and Ethiopic Languages
