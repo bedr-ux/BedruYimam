@@ -37,6 +37,7 @@ jobs:
 
     - name: Install and Build 🔧
       run: |
+        pip3 install --upgrade --break-system-packages jupyter
         export JEKYLL_ENV=production
         bundle exec jekyll build
 
@@ -45,4 +46,3 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         folder: _site
-        
