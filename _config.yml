@@ -15,24 +15,23 @@ footer_text: >
 keywords: bedru-yimam-ahmed, low-resource-nlp, amharic-nlp, african-nlp, geez-script, speech-recognition, ethiopic-llm, wollo-university, kiot, academic-portfolio
 
 lang: en # the language of your site
-icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🎓 # the emoji used as the favicon
 
 url: https://bedr-ux.github.io # the base hostname & protocol for your site
-baseurl: "/BedruYimam/" # the subpath of your site
-last_updated: true # displays last updated date in footer
-impressum_path:  # set to path to include impressum link in the footer
+baseurl: "/BedruYimam" # the subpath of your site
+last_updated: true # set to true if you want to display last updated in the footer
+impressum_path:
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
-repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default
+repo_theme_dark: dark
 repo_trophies:
   enabled: true
-  theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: flat
+  theme_dark: gitdimmed
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -45,80 +44,76 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-
-# Dimensions
 max_width: 800px
 
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-serve_og_meta: true # Include Open Graph meta tags in the HTML head
-serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide default Open Graph preview image
+serve_og_meta: true
+serve_schema_org: true
+og_image:
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: bedr-ux # your GitHub user name
-gitlab_username: # your GitLab user name
-x_username: bedr-ux # your X handle
-mastodon_username: # your mastodon instance+username
-linkedin_username: bedru-yimam-ahmed # your LinkedIn user name
-telegram_username: ubuntu1997 # your Telegram user name
-scholar_userid: x4bGrZwAAAAJ # your Google Scholar ID
-semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number
-orcid_id: 0009-0000-8174-8309 # your ORCID ID
-medium_username: # your Medium username
-quora_username: # your Quora username
-publons_id: # your ID on Publons
-lattes_id: # your ID on Lattes
-osf_id: # your OSF ID
-research_gate_profile: # your profile on ResearchGate
-scopus_id: # your profile on Scopus
-blogger_url: # your blogger URL
-work_url: https://wu.edu.et/kiot/department-of-information-technology/ # Department page
-keybase_username: # your keybase user name
-wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id
-dblp_url: # your DBLP profile url
-stackoverflow_id: # your stackoverflow id
-kaggle_id: # your kaggle id
-lastfm_id: # your lastfm id
-spotify_id: # your spotify id
-pinterest_id: # your pinterest id
-unsplash_id: # your unsplash id
-instagram_id: # your instagram id
-facebook_id: # your facebook id
-youtube_id: # your youtube channel id
-discord_id: # your discord id
-zotero_username: # your zotero username
-wechat_qr: # filename of your wechat qr-code
+github_username: bedr-ux
+gitlab_username:
+x_username: bedr-ux
+mastodon_username:
+linkedin_username: bedru-yimam-ahmed
+telegram_username: ubuntu1997
+scholar_userid: x4bGrZwAAAAJ
+semanticscholar_id:
+whatsapp_number:
+orcid_id: 0009-0000-8174-8309
+medium_username:
+quora_username:
+publons_id:
+lattes_id:
+osf_id:
+research_gate_profile:
+scopus_id:
+blogger_url:
+work_url: https://wu.edu.et/kiot/department-of-information-technology/
+keybase_username:
+wikidata_id:
+wikipedia_id:
+dblp_url:
+stackoverflow_id:
+kaggle_id:
+lastfm_id:
+spotify_id:
+pinterest_id:
+unsplash_id:
+instagram_id:
+facebook_id:
+youtube_id:
+discord_id:
+zotero_username:
+wechat_qr:
 
 contact_note: >
-  Feel free to reach out via email for research collaborations, graduate opportunities, or academic discussions.
+  Feel free to contact me by email at bedruy4@gmail.com or connect via LinkedIn and GitHub.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics:  # cronitor RUM analytics site ID
-
-google_site_verification:  # your google-site-verification ID
-bing_site_verification:  # your bing-site-verification ID
+google_analytics:
+cronitor_analytics:
+google_site_verification:
+bing_site_verification:
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Research Notes
-blog_nav_title: Notes
-blog_description: Empirical findings, benchmark notes, and thoughts on Low-Resource NLP and Ge'ez Script LLMs.
+blog_name:
+blog_nav_title:
+blog_description: Low-Resource NLP & Speech Processing Research Blog
 permalink: /blog/:year/:title/
 
-# Pagination
 pagination:
   enabled: true
 
@@ -126,9 +121,8 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-# Giscus comments
 giscus:
-  repo:                          # <your-github-user-name>/<your-github-repo-name>
+  repo:
   category: Comments
   mapping: title
   strict: 1
@@ -138,7 +132,7 @@ giscus:
   emit_metadata: 0
   lang: en
 
-disqus_shortname: # disabled by default
+disqus_shortname: al-folio
 
 external_sources:
 
@@ -170,7 +164,6 @@ latest_posts:
 # Jekyll settings
 # -----------------------------------------------------------------------------
 
-# Markdown and syntax highlight
 markdown: kramdown
 highlighter: rouge
 kramdown:
@@ -183,7 +176,6 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-# Includes & excludes
 include: ['_pages']
 exclude:
   - bin
@@ -195,7 +187,6 @@ keep_files:
   - .nojekyll
   - .git
 
-# Plug-ins
 plugins:
   - jekyll-archives
   - jekyll-diagrams
@@ -213,7 +204,6 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
 
-# Sitemap settings
 defaults:
   - scope:
       path: "assets"
@@ -251,12 +241,12 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code']
 display_categories: ['blockquotes']
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar (Automated Bibliography & Author Highlighting)
+# Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
   last_name: Ahmed
-  first_name: [Bedru, Bedru Y., Bedru Yimam]
+  first_name: [Bedru Y.]
 
   style: apa
   locale: en
@@ -264,6 +254,7 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+
   bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true
@@ -277,17 +268,14 @@ scholar:
   group_by: year
   group_order: descending
 
-# Display different badges with stats for your publications
 enable_publication_badges:
-  altmetric: true
-  dimensions: true
+  altmetric: false
+  dimensions: false
 
-# Filter out internal keywords
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
-max_author_limit: 4 # Show up to 4 authors before truncating with et al.
+max_author_limit: 3
 more_authors_animation_delay: 10
-
 enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
@@ -305,7 +293,7 @@ external_links:
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: false
+  enabled: False
   widths:
     - 480
     - 800
@@ -321,6 +309,12 @@ imagemagick:
     webp: "-resize 800x"
 
 # -----------------------------------------------------------------------------
+# Jekyll Diagrams
+# -----------------------------------------------------------------------------
+
+jekyll-diagrams:
+
+# -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
@@ -329,10 +323,10 @@ enable_cronitor_analytics: false
 enable_google_verification: false
 enable_bing_verification:   false
 enable_masonry:             true
-enable_math:                true   # Math typesetting via MathJax
-enable_tooltips:            true
-enable_darkmode:            true   # Light/dark mode toggle button in navbar
-enable_navbar_social:       true   # Displays Scholar, GitHub, LinkedIn icons in navbar
+enable_math:                true
+enable_tooltips:            false
+enable_darkmode:            true
+enable_navbar_social:       false
 enable_project_categories:  true
 enable_medium_zoom:         true
 enable_progressbar:         true
@@ -354,19 +348,20 @@ masonry:
 mdb:
   version: "4.20.0"
   integrity:
-    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw="
+    css: "sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htFnhT9ljN3JJw="
     js: "sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
 
 # -----------------------------------------------------------------------------
-# JSON Resume
+# Get external JSON data
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
   - data: resume
     json: assets/json/resume.json
+
 jsonresume:
   - basics
   - work
