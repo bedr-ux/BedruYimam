@@ -2,26 +2,25 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: "Bedru Yimam Ahmed" # the website title (if blank, full name will be used instead)
 first_name: Bedru
 middle_name: Yimam
 last_name: Ahmed
 email: bedruy4@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Personal academic website of Bedru Yimam Ahmed — Lecturer & Low-Resource NLP Researcher at Wollo University (KIoT), Ethiopia. Research in Semitic & Ge'ez Script LLMs, Subword Tokenization, Speech Recognition, and RAG.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
+keywords: bedru-yimam-ahmed, low-resource-nlp, amharic-nlp, african-nlp, geez-script, speech-recognition, ethiopic-llm, wollo-university, kiot, academic-portfolio
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: # ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+lang: en # the language of your site
+icon: 🎓 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://bedr-ux.github.io # the base hostname & protocol for your site
-baseurl: "/BedruYimam/" # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+baseurl: "/BedruYimam/" # the subpath of your site
+last_updated: true # displays last updated date in footer
+impressum_path:  # set to path to include impressum link in the footer
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -38,9 +37,6 @@ repo_trophies:
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
 rss_icon: false
 
 # -----------------------------------------------------------------------------
@@ -53,15 +49,12 @@ footer_fixed: true
 # Dimensions
 max_width: 800px
 
-# TODO: add layout settings (single page vs. multi-page)
-
 # -----------------------------------------------------------------------------
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
-# Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: # The site-wide default Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
@@ -70,25 +63,25 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: bedr-ux # your GitHub user name
 gitlab_username: # your GitLab user name
 x_username: bedr-ux # your X handle
-mastodon_username: # your mastodon instance+username in the format instance.tld/@username
+mastodon_username: # your mastodon instance+username
 linkedin_username: bedru-yimam-ahmed # your LinkedIn user name
 telegram_username: ubuntu1997 # your Telegram user name
 scholar_userid: x4bGrZwAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
-whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
+whatsapp_number: # your WhatsApp number
 orcid_id: 0009-0000-8174-8309 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons
-lattes_id: # your ID on Lattes (Brazilian Lattes CV)
+lattes_id: # your ID on Lattes
 osf_id: # your OSF ID
 research_gate_profile: # your profile on ResearchGate
 scopus_id: # your profile on Scopus
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://wu.edu.et/kiot/department-of-information-technology/ # Department page
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
-wikipedia_id: # your wikipedia id (Case sensitive)
+wikipedia_id: # your wikipedia id
 dblp_url: # your DBLP profile url
 stackoverflow_id: # your stackoverflow id
 kaggle_id: # your kaggle id
@@ -98,31 +91,31 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
-discord_id: # your discord id (18-digit unique numerical identifier)
+youtube_id: # your youtube channel id
+discord_id: # your discord id
 zotero_username: # your zotero username
-wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
+wechat_qr: # filename of your wechat qr-code
 
 contact_note: >
-  Feel free to contact me by email (or even better, shoot me a DM on Twitter)
+  Feel free to reach out via email for research collaborations, graduate opportunities, or academic discussions.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
+cronitor_analytics:  # cronitor RUM analytics site ID
 
-google_site_verification:  # your google-site-verification ID (Google Search Console)
-bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
+google_site_verification:  # your google-site-verification ID
+bing_site_verification:  # your bing-site-verification ID
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: #al-folio # blog_name will be displayed in your blog page
-blog_nav_title: #blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: a simple whitespace theme for academics
+blog_name: Research Notes
+blog_nav_title: Notes
+blog_description: Empirical findings, benchmark notes, and thoughts on Low-Resource NLP and Ge'ez Script LLMs.
 permalink: /blog/:year/:title/
 
 # Pagination
@@ -133,37 +126,27 @@ related_blog_posts:
   enabled: true
   max_related: 5
 
-# Giscus comments (RECOMMENDED)
-# Follow instructions on https://giscus.app/ to setup for your repo to fill out
-# the information below.
+# Giscus comments
 giscus:
   repo:                          # <your-github-user-name>/<your-github-repo-name>
-  category: Comments             # name of the category under which discussions will be created
-  mapping: title                 # identify discussions by post title
-  strict: 1                      # use strict identification mode
-  reactions_enabled: 1           # enable (1) or disable (0) emoji reactions
-  input_position: bottom         # whether to display input form below (bottom) or above (top) the comments
-  theme: preferred_color_scheme  # name of the color scheme (preferred works well with al-folio light/dark mode)
+  category: Comments
+  mapping: title
+  strict: 1
+  reactions_enabled: 1
+  input_position: bottom
+  theme: preferred_color_scheme
   emit_metadata: 0
   lang: en
 
-# Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
-# https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+disqus_shortname: # disabled by default
 
-# External sources.
-# If you have blog posts published on medium.com or other external sources,
-# you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-#  - name: medium.com
-#    rss_url: https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
-  
   news:
     defaults:
       layout: post
@@ -175,13 +158,13 @@ collections:
 
 announcements:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: true
+  limit: 5
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: true
+  limit: 3
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -254,7 +237,7 @@ jekyll-minifier:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
-  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  enabled: [year, tags, categories]
   layouts:
     year: archive-year
     tag: archive-tag
@@ -264,32 +247,23 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: ['formatting', 'images', 'links', 'math', 'code'] # these tags will be displayed on the front page of your blog
-display_categories: ['blockquotes'] # these categories will be displayed on the front page of your blog
+display_tags: ['formatting', 'images', 'links', 'math', 'code']
+display_categories: ['blockquotes']
 
 # -----------------------------------------------------------------------------
-# Jekyll Scholar
+# Jekyll Scholar (Automated Bibliography & Author Highlighting)
 # -----------------------------------------------------------------------------
-#gems:
-#  - 'jekyll/scholar'
-#scholar:
-#  bibliography_template: "{{ reference | replace_first: 'Zelle, R. M.', '<b>Zelle, R. M.</b>' }}"
-#gems:
-#  - 'jekyll/scholar'
 
 scholar:
   last_name: Ahmed
-  first_name: [Bedru Y.]
+  first_name: [Bedru, Bedru Y., Bedru Yimam]
 
   style: apa
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
-  bibliography_template:  bib #"{{ reference | replace_first: 'Bedru Yimam Ahmed', '<u>Bedru Yimam Ahmed</u>' }}"
-  # Note: if you have latex math in your bibtex, the latex filter
-  # preprocessing may conflict with MathJAX if the latter is enabled.
-  # See https://github.com/alshedivat/al-folio/issues/357.
+  bibliography_template: bib
   bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true
@@ -303,39 +277,35 @@ scholar:
   group_by: year
   group_order: descending
 
-# Display different badges withs stats for your publications
+# Display different badges with stats for your publications
 enable_publication_badges:
-  altmetric: false # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions: false # Dimensions badge (https://badge.dimensions.ai/)
+  altmetric: true
+  dimensions: true
 
-# Filter out certain bibtex entry keywords used internally from the bib output
+# Filter out internal keywords
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
-# Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3  # leave blank to always show all authors
-more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
+max_author_limit: 4 # Show up to 4 authors before truncating with et al.
+more_authors_animation_delay: 10
 
-# Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.
 enable_publication_thumbnails: true
 
 # -----------------------------------------------------------------------------
 # Jekyll Link Attributes
 # -----------------------------------------------------------------------------
 
-# These are the defaults
 external_links:
   enabled: true
   rel: external nofollow noopener
   target: _blank
   exclude:
 
-
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
 
 imagemagick:
-  enabled: False #true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false
   widths:
     - 480
     - 800
@@ -351,33 +321,21 @@ imagemagick:
     webp: "-resize 800x"
 
 # -----------------------------------------------------------------------------
-# Jekyll Diagrams
-# -----------------------------------------------------------------------------
-
-jekyll-diagrams:
-    # configuration, see https://github.com/zhustec/jekyll-diagrams.
-    # feel free to comment out this section if not using jekyll diagrams.
-
-
-# -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
-enable_cronitor_analytics: false  # enables cronitor RUM analytics
-enable_google_verification: false  # enables google site verification
-enable_bing_verification:   false  # enables bing site verification
-enable_masonry:             true   # enables automatic project cards arrangement
-enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            false   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
-enable_progressbar:         true   # enables a horizontal progress bar linked to the vertical scroll position
+enable_google_analytics:    false
+enable_cronitor_analytics: false
+enable_google_verification: false
+enable_bing_verification:   false
+enable_masonry:             true
+enable_math:                true   # Math typesetting via MathJax
+enable_tooltips:            true
+enable_darkmode:            true   # Light/dark mode toggle button in navbar
+enable_navbar_social:       true   # Displays Scholar, GitHub, LinkedIn icons in navbar
+enable_project_categories:  true
+enable_medium_zoom:         true
+enable_progressbar:         true
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -403,12 +361,12 @@ medium_zoom:
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
 
 # -----------------------------------------------------------------------------
-# Get external JSON data
+# JSON Resume
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
   - data: resume
-    json: assets/json/resume.json # it can also be an url
+    json: assets/json/resume.json
 jsonresume:
   - basics
   - work
