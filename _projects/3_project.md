@@ -10,7 +10,9 @@ github: https://github.com/bedr-ux/Amharic-LoRA-Experiment
 An investigation into low-rank adaptation on modest compute (single Colab Tesla T4), evaluating cross-entropy with Bits Per Character (BPC) instead of flawed per-token perplexity.
 
 ### Key Highlights
-- **31.1% BPC Reduction:** LoRA on attention modules ($r=16, \alpha=32$, 0.44% trainable weights) cuts Amharic BPC from 6.16 to 4.25 in 13 minutes.
-- **Quantified Catastrophic Forgetting:** English BPC degrades by 18.8%, empirically establishing the cross-lingual plasticity-stability trade-off.
+- **31.1% BPC Reduction:** LoRA on attention modules ($r=16, \alpha=32$, 4.4M trainable parameters) reduced validation loss from 2.9240 to 2.0150.
+- **Metric Integrity:** Proves that token-level perplexity is statistically invalid across models with differing vocabularies; replaces it with Bits-per-Character (BPC) with 95% paired bootstrap confidence intervals.
+- **Catastrophic Forgetting Audit:** Evaluated English degradation on ARC-Easy to measure cross-lingual retention during low-resource target language fine-tuning.
 
-[View GitHub Repository](https://github.com/bedr-ux/Amharic-LoRA-Experiment)
+[View GitHub Repository](https://github.com/bedr-ux/Amharic-LoRA-Experiment){: .btn .btn-sm .z-depth-0}
+
