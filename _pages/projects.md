@@ -2,14 +2,12 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A Retrieval-Augmented Generation (RAG) assistant for Antenatal Care (ANC) clinical guidelines, built to answer questions in English  using a locally-run open-weight LLM..
+description: Research benchmarks and empirical investigations across low-resource Semitic NLP, Ethiopic LLM tokenization, retrieval architectures, parameter-efficient fine-tuning (PEFT), and dialect speech recognition.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [research, speech]
 horizontal: false
-
 ---
-
 
 <!-- pages/projects.md -->
 <div class="projects">
