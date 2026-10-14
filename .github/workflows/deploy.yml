@@ -16,7 +16,7 @@ permissions:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - name: Checkout 🛎️
       uses: actions/checkout@v3
@@ -37,9 +37,12 @@ jobs:
 
     - name: Install and Build 🔧
       run: |
-        pip3 install --upgrade --break-system-packages jupyter
+        pip3 install --upgrade jupyter
+        npm install -g mermaid.cli
+        npm install -g purgecss
         export JEKYLL_ENV=production
-        bundle exec jekyll build
+        bundle exec jekyll build --trace
+        purgecss -c purgecss.config.js || true
 
     - name: Deploy 🚀
       if: github.event_name != 'pull_request'
