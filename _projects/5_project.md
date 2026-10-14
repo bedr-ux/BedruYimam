@@ -8,5 +8,7 @@ category: speech
 
 Adapting state-of-the-art speech recognition models to regional Amharic dialectal variations (Wollo speech) using parameter-efficient fine-tuning (LoRA), advancing dialect-robust acoustic modeling.
 
-### Related Publication
-- Sukairaj Hafiz Imam, Babangida Sani, Dawit Ketema Gete, **Bedru Yimam Ahmed**, et al. *"Automatic Speech Recognition for African Low-Resource Languages: Challenges and Future Directions"*, **AfricaNLP 2025 @ ACL Anthology**.
+### Key Highlights
+- **Dialect Acoustic Modeling:** Capturing regional phonological shifts, lexical variations, and acoustic nuances distinct from standard Addis Ababa Amharic.
+- **Compute-Efficient Speech PEFT:** Fine-tuning Whisper encoder-decoder attention projections while freezing core acoustic representation weights.
+- **Low-Resource Audio Pipeline:** Processing dialect audio recordings and aligning transcriptions using Ethiopic Fidel orthography.
