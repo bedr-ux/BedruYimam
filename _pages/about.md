@@ -2,11 +2,10 @@
 layout: page
 title: about
 permalink: /
-#subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 profile:
   align: right
-  image: bedru.jpg
-  image_circular: false # crops the image to make it circular
+  image: bedru.png          # Match the exact filename you uploaded (e.g. bedru.png or bedru.jpg)
+  image_circular: true       # Set to true for a clean circular portrait, or false for rectangular
 #more_info: >
 #    <p>555 your office number</p>
 #    <p>123 your address street</p>
