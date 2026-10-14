@@ -1,6 +1,6 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Research benchmarks and empirical investigations across low-resource Semitic NLP, Ethiopic LLM tokenization, retrieval architectures, parameter-efficient fine-tuning (PEFT), and dialect speech recognition.
 nav: true
