@@ -2,13 +2,14 @@
 layout: about
 title: About
 permalink: /
-subtitle: Lecturer & Multilingual NLP / Speech Researcher
+subtitle: Lecturer & Multilingual NLP / Speech AI Researcher
 
 profile:
   align: right
   image: bedru.png
   image_circular: true
   more_info: >
+    <p>Department of Information Technology</p>
     <p>KIoT, Wollo University</p>
     <p>Kombolcha, Ethiopia</p>
     <p><a href="mailto:bedruy4@gmail.com">bedruy4@gmail.com</a></p>
@@ -18,22 +19,66 @@ selected_papers: true
 social: true
 ---
 
-Hey there, I'm Bedru Yimam, an **LLM for Low-Resource Languages** researcher and **Language Technology** expert.
+I am a **Lecturer and Researcher** in the Department of Information Technology at [Wollo University (Kombolcha Institute of Technology - KIoT)](https://wu.edu.et/kiot/), Ethiopia. I hold a Master of Science (MSc) in Information Technology from [Bahir Dar University](https://www.bdu.edu.et/).
 
-My work focuses on applying machine learning to problems in **Speech Technology** [audio modality] and **Natural Language Processing** [text modality]. I have always been excited about broadening language technology to many of the under-represented languages of the world. My interests have since expanded into **Large Language Models (LLMs)**, **Agentic AI**, **Retrieval-Augmented Generation (RAG)**, and **Data Science**, where I explore how these advances can be adapted to serve low-resource languages and communities.
+My research investigates the computational frontiers of **Low-Resource Natural Language Processing** and **Speech Technology**, with a special focus on **Semitic languages and Ge'ez script computing** (Amharic, Tigrinya). I focus on making modern AI systems equitable, compute-efficient, and practically deployable in under-represented language communities.
 
-I completed my Master's in [**Bahir Dar University**](https://www.bdu.edu.et/)'s Information Technology program and currently serve as a Lecturer and Researcher at Wollo University (KIoT), Ethiopia.
+---
 
-I am currently working as a researcher and lecturer in the [Information Technology Department](https://wu.edu.et/kiot/department-of-information-technology/) at [Wollo University](https://wu.edu.et/kiot/).
+### Core Research Pillars
 
-### Areas of Focus & Collaboration
+<div class="row row-cols-1 row-cols-md-2 mt-3 mb-4">
+  <div class="col mb-3">
+    <div class="card h-100 p-3" style="border: 1px solid var(--global-divider-color); border-radius: 8px;">
+      <h5 style="font-weight: 700; margin-bottom: 0.4rem;">
+        <i class="fa-solid fa-microchip text-primary mr-2"></i> LLM Tokenization & Efficiency
+      </h5>
+      <p style="font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light); margin: 0;">
+        Quantifying and resolving the <strong>9.6x cross-lingual Token Tax</strong>, subword fragmentation, and byte-fallback collapse in English-centric LLMs processing Ethiopic script.
+      </p>
+    </div>
+  </div>
 
-I am always excited to chat and learn more about:
+  <div class="col mb-3">
+    <div class="card h-100 p-3" style="border: 1px solid var(--global-divider-color); border-radius: 8px;">
+      <h5 style="font-weight: 700; margin-bottom: 0.4rem;">
+        <i class="fa-solid fa-sliders text-success mr-2"></i> Parameter-Efficient Fine-Tuning (PEFT)
+      </h5>
+      <p style="font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light); margin: 0;">
+        Low-rank adaptation (LoRA) of compact open-weight models (Qwen, Gemma, Aya) on modest hardware, audited via Bits-per-Character (BPC) and paired bootstrap confidence intervals.
+      </p>
+    </div>
+  </div>
 
-* **Large Language Models & Agentic AI:** How can LLMs and autonomous agent systems be designed to reason, plan, and act reliably in real-world, low-resource settings?
-* **Retrieval-Augmented Generation (RAG):** How can we ground language models in trustworthy, up-to-date knowledge sources, especially for languages and domains with limited digital text?
-* **Data Science & Machine Learning:** What data-driven methods and modeling techniques can uncover insights and drive better decisions in speech, language, and beyond?
-* **AI for Social Good:** How can we steer AI technologies to create a positive social impact in fields like education and healthcare? What are the unique challenges and possibilities in these domains?
-* **Multilingualism and Global Inclusion:** Not all languages are fairly represented in today's tech. How can we develop technologies that are more inclusive and celebrate the linguistic diversity of humankind?
-* **Digital Humanities & Heritage:** Our ancestors left a wealth of knowledge. Can intelligent language technologies help preserve this rich cultural heritage and make historical wisdom searchable for all curious minds?
-* **Language Processing in Humans and Machines:** Can LLMs teach us about language processing in the human brain? How can linguistic theories inspire new computational frameworks for **Neural Network Interpretability**?
+  <div class="col mb-3">
+    <div class="card h-100 p-3" style="border: 1px solid var(--global-divider-color); border-radius: 8px;">
+      <h5 style="font-weight: 700; margin-bottom: 0.4rem;">
+        <i class="fa-solid fa-database text-info mr-2"></i> Clinical & Domain-Specific RAG
+      </h5>
+      <p style="font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light); margin: 0;">
+        Designing offline-capable Retrieval-Augmented Generation architectures with Hybrid BM25 + Dense FAISS and Reciprocal Rank Fusion (RRF) for maternal healthcare (ANC guidelines).
+      </p>
+    </div>
+  </div>
+
+  <div class="col mb-3">
+    <div class="card h-100 p-3" style="border: 1px solid var(--global-divider-color); border-radius: 8px;">
+      <h5 style="font-weight: 700; margin-bottom: 0.4rem;">
+        <i class="fa-solid fa-waveform text-warning mr-2"></i> Dialect Speech Recognition (ASR)
+      </h5>
+      <p style="font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light); margin: 0;">
+        Adapting foundation speech models (OpenAI Whisper) to regional Ethiopian dialects—specifically Wollo Amharic phonology and acoustic variants.
+      </p>
+    </div>
+  </div>
+</div>
+
+---
+
+### Academic Collaborations & Prospective Opportunities
+
+I actively welcome collaborations with research labs, industry researchers, and academic institutions working on low-resource language technologies, speech recognition, and African NLP. 
+
+I am also **actively exploring PhD positions and research fellowships** focused on Multilingual Foundation Models, Parameter-Efficient Adaptation, and Speech Intelligence.
+
+Feel free to connect via [Email](mailto:bedruy4@gmail.com), [Google Scholar](https://scholar.google.com/citations?user=x4bGrZwAAAAJ), or [LinkedIn](https://www.linkedin.com/in/bedru-yimam-ahmed).
