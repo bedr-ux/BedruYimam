@@ -19,7 +19,7 @@ selected_papers: true
 social: true
 ---
 
-I am a **Lecturer and Researcher** in the Department of Information Technology at [Wollo University (Kombolcha Institute of Technology - KIoT)](https://wu.edu.et/kiot/), Ethiopia. I hold a Master of Science (MSc) in Information Technology from [Bahir Dar University](https://www.bdu.edu.et/).
+I am a **Lecturer and Researcher** in the Department of Information Technology at [Wollo University](https://wu.edu.et/kiot/) (Kombolcha Institute of Technology - KIoT), Ethiopia. I hold a Master of Science (MSc) in Information Technology from [Bahir Dar University](https://www.bdu.edu.et/).
 
 My research investigates the computational frontiers of **Low-Resource Natural Language Processing** and **Speech Technology**, with a special focus on **Semitic languages and Ge'ez script computing** (Amharic, Tigrinya). I focus on making modern AI systems equitable, compute-efficient, and practically deployable in under-represented language communities.
 
@@ -31,7 +31,7 @@ My research investigates the computational frontiers of **Low-Resource Natural L
   <div class="col mb-3">
     <div class="card h-100 p-3" style="border: 1px solid var(--global-divider-color); border-radius: 8px;">
       <h5 style="font-weight: 700; margin-bottom: 0.4rem;">
-        <i class="fa-solid fa-microchip text-primary mr-2"></i> LLM Tokenization & Efficiency
+        <i class="fa-solid fa-microchip text-primary mr-2"></i> LLM Tokenization &amp; Efficiency
       </h5>
       <p style="font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light); margin: 0;">
         Quantifying and resolving the <strong>9.6x cross-lingual Token Tax</strong>, subword fragmentation, and byte-fallback collapse in English-centric LLMs processing Ethiopic script.
@@ -53,7 +53,7 @@ My research investigates the computational frontiers of **Low-Resource Natural L
   <div class="col mb-3">
     <div class="card h-100 p-3" style="border: 1px solid var(--global-divider-color); border-radius: 8px;">
       <h5 style="font-weight: 700; margin-bottom: 0.4rem;">
-        <i class="fa-solid fa-database text-info mr-2"></i> Clinical & Domain-Specific RAG
+        <i class="fa-solid fa-database text-info mr-2"></i> Clinical &amp; Domain-Specific RAG
       </h5>
       <p style="font-size: 0.9rem; line-height: 1.5; color: var(--global-text-color-light); margin: 0;">
         Designing offline-capable Retrieval-Augmented Generation architectures with Hybrid BM25 + Dense FAISS and Reciprocal Rank Fusion (RRF) for maternal healthcare (ANC guidelines).
@@ -75,7 +75,7 @@ My research investigates the computational frontiers of **Low-Resource Natural L
 
 ---
 
-### Academic Collaborations & Prospective Opportunities
+### Academic Collaborations &amp; Prospective Opportunities
 
 I actively welcome collaborations with research labs, industry researchers, and academic institutions working on low-resource language technologies, speech recognition, and African NLP. 
 
