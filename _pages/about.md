@@ -35,7 +35,7 @@ My mission is to help close this digital language divide: **building language an
   <div class="col mb-3">
     <div class="card h-100 p-3" style="border: 1px solid var(--global-divider-color); border-radius: 8px;">
       <h5 style="font-weight: 700; margin-bottom: 0.4rem;">
-        <i class="fa-solid fa-microchip text-primary mr-2"></i> Dismantling the "Token Tax"
+        <i class="fa-solid fa-microchip text-primary mr-2"></i> The "Token Tax"
       </h5>
       <p style="font-size: 0.9rem; line-height: 1.55; color: var(--global-text-color-light); margin: 0;">
         Why should an Amharic speaker pay nearly 10× more compute cost than an English speaker for the exact same prompt? We benchmark tokenizers and diagnose byte-fallback collapse so modern foundation models treat Ge'ez script equitably.
@@ -81,10 +81,10 @@ My mission is to help close this digital language divide: **building language an
 
 ### In the Classroom &amp; Community 🎓
 
-Teaching is one of the most fulfilling dimensions of my academic journey. At Wollo University, I work closely with undergraduate students teaching courses in Machine Learning, Natural Language Processing, and Software Engineering.
+Teaching is one of the most fulfilling dimensions of my academic journey. At Wollo University, I work closely with undergraduate students teaching courses.
 
 I strongly believe that the future of African language technologies must be shaped by African students and researchers solving local problems from the ground up. In the classroom and lab, I focus on:
-- **Demystifying AI:** Helping students move from theoretical equations to building functioning, open-source tools.
+- Helping students move from theoretical equations to building functioning, open-source tools.
 - **Community Datasets:** Championing participatory, grassroots data collection through communities like [Masakhane](https://www.masakhane.io/).
 - **Resourcefulness:** Inspiring students to innovate creatively, proving that high-impact research can happen even with modest compute budgets.
 
