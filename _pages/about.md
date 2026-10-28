@@ -23,7 +23,7 @@ social: true
 
 I am a **Lecturer and Researcher** in the Department of Information Technology at [Wollo University](https://wu.edu.et/kiot/) (Kombolcha Institute of Technology - KIoT) in Ethiopia. I hold a Master of Science (MSc) in Information Technology from [Bahir Dar University](https://www.bdu.edu.et/).
 
-Language is the bedrock of culture, identity, and thought. Today, over 100 million people speak Ethiopian Semitic languages like **Amharic and Tigrinya**, yet in the era of modern Large Language Models, these rich Ge'ez-script languages remain vastly underserved. They face massive computational penalties ("Token Tax"), heavy token fragmentation, and a lack of reliable clinical or educational tools.
+Language is the bedrock of culture, identity, and thought. Today, over 100 million people speak Ethiopian Semitic languages like **Amharic **, yet in the era of modern Large Language Models, these rich Ge'ez-script languages remain vastly underserved. They face massive computational penalties ("Token Tax"), heavy token fragmentation, and a lack of reliable clinical or educational tools.
 
 My mission is to help close this digital language divide: **building language and speech technologies that are culturally grounded, compute-efficient, and practically useful to everyday communities.**
 
